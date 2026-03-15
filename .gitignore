@@ -1,5 +1,7 @@
-terraform./terraform
-terraform/ *tfstate
-terraform/ *.tfstate.backup
-terraform/ tfplan
-terraform/ tfplan.json
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+tfplan
+tfplan.json
